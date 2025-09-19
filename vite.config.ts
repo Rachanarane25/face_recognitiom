@@ -1,7 +1,8 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
+import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
-  base: '/face_recognitiom/',  // GitHub repo name with trailing slash
-  plugins: [react()]
+  base: '/face_recognitiom/',
+  plugins: [react(), tailwindcss()]
 });
