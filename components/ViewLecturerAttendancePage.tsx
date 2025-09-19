@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import type { Page, LecturerAttendanceRecord } from '../types';
+import type { Page, LecturerAttendanceRecord } from '../types.ts';
 
 interface ViewLecturerAttendancePageProps {
   setPage: (page: Page) => void;
