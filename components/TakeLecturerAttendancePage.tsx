@@ -1,6 +1,6 @@
 
 import React from 'react';
-import type { User, LecturerAttendanceRecord, FacultySession } from '../types';
+import type { User, LecturerAttendanceRecord, FacultySession } from '../types.ts';
 
 interface TakeLecturerAttendancePageProps {
   session: FacultySession;
