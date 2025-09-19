@@ -1,5 +1,6 @@
+
 import React, { useState } from 'react';
-import type { User } from '../types';
+import type { User } from '../types.ts';
 
 interface LoginPageProps {
   users: User[];
