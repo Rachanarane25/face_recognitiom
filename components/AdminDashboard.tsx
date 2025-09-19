@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
-import type { Page, User, Course, Unit, Venue, AttendanceRecord, Student } from '../types';
-import { getGeoLocation, searchLocation } from '../utils/location';
+import type { Page, User, Course, Unit, Venue, AttendanceRecord, Student } from '../types.ts';
+import { getGeoLocation, searchLocation } from '../utils/location.ts';
 
 // --- Global declaration for Leaflet ---
 declare const L: any;
