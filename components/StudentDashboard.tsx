@@ -364,7 +364,6 @@ const StudentDashboard: React.FC<StudentDashboardProps> = ({ user, students, att
     const csvContent = csvHeader + csvRows;
     const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
     const link = document.createElement("a");
-    // FIX: Pass the object URL string to revokeObjectURL, not the Blob object.
     const url = URL.createObjectURL(blob);
     link.setAttribute("href", url);
     link.setAttribute("download", `attendance_${user.studentId}.csv`);

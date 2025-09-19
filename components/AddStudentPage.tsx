@@ -225,7 +225,6 @@ const AddStudentPage: React.FC<AddStudentPageProps> = ({
     student.id.toLowerCase().includes(searchQuery.toLowerCase())
   ), [students, searchQuery]);
   
-  // FIX: Define currentBulkStudent based on the index and list of students to register.
   const currentBulkStudent = useMemo(() => studentsToRegister[currentStudentIndex], [studentsToRegister, currentStudentIndex]);
 
   return (
