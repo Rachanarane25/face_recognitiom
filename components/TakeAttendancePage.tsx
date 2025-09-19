@@ -1,6 +1,6 @@
 
 import React from 'react';
-import type { Student, AttendanceRecord, StudentSession } from '../types';
+import type { Student, AttendanceRecord, StudentSession } from '../types.ts';
 
 interface SessionMonitorPageProps {
   session: StudentSession;
