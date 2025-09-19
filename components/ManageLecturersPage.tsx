@@ -1,7 +1,7 @@
 
 import React, { useState, useMemo } from 'react';
-import type { Page, User } from '../types';
-import { useCamera } from '../hooks/useCamera';
+import type { Page, User } from '../types.ts';
+import { useCamera } from '../hooks/useCamera.ts';
 
 interface ManageLecturersPageProps {
   setPage: (page: Page) => void;
