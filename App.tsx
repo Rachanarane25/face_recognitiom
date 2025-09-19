@@ -1,18 +1,18 @@
 
 import React, { useState, useEffect } from 'react';
-import type { Page, User, Course, Unit, Venue, Student, AttendanceRecord, StudentSession, FacultySession, LecturerAttendanceRecord } from './types';
-import LoginPage from './components/LoginPage';
-import AdminDashboard from './components/AdminDashboard';
-import LecturerDashboard from './components/LecturerDashboard';
-import StudentDashboard from './components/StudentDashboard';
-import AddStudentPage from './components/AddStudentPage';
-import TakeAttendancePage from './components/TakeAttendancePage';
-import AttendanceListPage from './components/AttendanceListPage';
-import Header from './components/Header';
-import useLocalStorage from './hooks/useLocalStorage';
-import ManageLecturersPage from './components/ManageLecturersPage';
-import TakeLecturerAttendancePage from './components/TakeLecturerAttendancePage';
-import ViewLecturerAttendancePage from './components/ViewLecturerAttendancePage';
+import type { Page, User, Course, Unit, Venue, Student, AttendanceRecord, StudentSession, FacultySession, LecturerAttendanceRecord } from './types.ts';
+import LoginPage from './components/LoginPage.tsx';
+import AdminDashboard from './components/AdminDashboard.tsx';
+import LecturerDashboard from './components/LecturerDashboard.tsx';
+import StudentDashboard from './components/StudentDashboard.tsx';
+import AddStudentPage from './components/AddStudentPage.tsx';
+import TakeAttendancePage from './components/TakeAttendancePage.tsx';
+import AttendanceListPage from './components/AttendanceListPage.tsx';
+import Header from './components/Header.tsx';
+import useLocalStorage from './hooks/useLocalStorage.ts';
+import ManageLecturersPage from './components/ManageLecturersPage.tsx';
+import TakeLecturerAttendancePage from './components/TakeLecturerAttendancePage.tsx';
+import ViewLecturerAttendancePage from './components/ViewLecturerAttendancePage.tsx';
 
 // --- Seed Data ---
 const INITIAL_COURSES: Course[] = [
