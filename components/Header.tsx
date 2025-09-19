@@ -1,5 +1,6 @@
+
 import React from 'react';
-import type { Page, User } from '../types';
+import type { Page, User } from '../types.ts';
 
 interface HeaderProps {
   user: User | null;
