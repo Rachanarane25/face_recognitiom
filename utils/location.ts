@@ -1,4 +1,5 @@
-import { calculateDistance } from './geolocation';
+
+import { calculateDistance } from './geolocation.ts';
 
 // --- Helper Functions ---
 export const getGeoLocation = (): Promise<GeolocationPosition> => {
