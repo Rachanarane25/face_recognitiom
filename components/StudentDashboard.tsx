@@ -1,9 +1,10 @@
+
 import React, { useMemo, useState, useEffect, useRef } from 'react';
-import type { User, Student, AttendanceRecord, StudentSession, Course, Unit, Venue } from '../types';
-import { useCamera } from '../hooks/useCamera';
-import { compareFaces } from '../utils/gemini';
-import { calculateDistance } from '../utils/geolocation';
-import { getGeoLocation } from '../utils/location';
+import type { User, Student, AttendanceRecord, StudentSession, Course, Unit, Venue } from '../types.ts';
+import { useCamera } from '../hooks/useCamera.ts';
+import { compareFaces } from '../utils/gemini.ts';
+import { calculateDistance } from '../utils/geolocation.ts';
+import { getGeoLocation } from '../utils/location.ts';
 
 // --- Global declaration for Leaflet ---
 declare const L: any;
